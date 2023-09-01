@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, pink,rgba(164, 255, 247, 0.918));
+}
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* margin-left: 5vw; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header img{
+    margin-left: 5vw;
+}
+#dream{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 1vw;
+    
+}
+nav{
+    /* background-color: red; */
+    display: flex;
+    text-align: center;
+    margin-left: 15vw;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+     list-style: none;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: center;
+    
+}
+ul li{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+ul li a{
+   text-decoration: none;
+   color: black;
+}
+ul li:hover a{
+    text-decoration: none;
+    color: red;
+ }
+nav .user{
+    margin-left: 12vw;
+}
+nav i{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-decoration: none;
+    color: black;
+   float: right;
+ }
+ #section_one{
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+ }
+ #img3d{
+    margin-left: 10vw;
+    margin-top: 1vw;
+
+ }
+ #section_one .section_div_one{
+    /* background-color: blue; */
+    width: 45vw;
+    /* text-align: center; */
+}
+ #section_one .section_div_one p{
+    margin-top: 5vw;
+    margin-left: 10.5vw;
+    color: red;
+ }
+ #section_one .section_div_one h1{
+    margin-left: 10vw;
+    padding-top: 1vw;
+    font-size: 40px;
+ }
+ #section_one .section_div_one input{
+    margin-left: 10vw;
+    margin-top: 1.5vw;
+    padding: .4vw;
+    border-radius: 15px;
+    border-color: red;
+    width: 18vw;
+ }
+ #section_one .section_div_one button{
+    margin-left: -4vw;
+    padding: .4vw;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    background-color: red;
+ }
+ /* section two */
+ #section_two{
+    background-color: white;
+ }
+ #section_two .section_two_divone{
+    display: flex;
+ }
+ #section_two .section_two_divone i{
+    /* border: 2px solid red; */
+    box-shadow: .1px .1px 5px 1px black;
+    padding: .5vw;
+    margin-top: 3vw;
+    font-weight: bold;
+    width: 10vw;
+    border-radius: 5px;
+   margin-left: 8vw;
+   margin-right: 6vw;
+   margin-bottom: 5vw;
+ }
+ #CATEGORIES{
+    color: red;
+    text-align: center;
+ }
+ #section_two .section_two_divtwo{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+ }
+ #section_two .section_two_divtwo h1{
+    text-align: center;
+    margin-top: 1vw;
+ }
+ #section_two .section_two_divtwo .section_two_popular{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+ }
+ #section_two .section_two_divtwo .section_two_popular .popular_div1{
+    /* background-color: blue; */
+    text-align: center;
+    border: 1px solid red;
+    padding: .7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 5px;
+    rotate: 345deg;
+    margin-bottom: 5vw;
+ }
+ #section_two  .all_categories{
+    background-color: red;
+    padding: .8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    margin-left: 44vw;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+  margin-bottom: 5vw;
+ }
+ /* section three */
+ #COURESES{
+    color: red;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    text-align: center;
+ }
+ /* #section_three{
+    background-color: blue;
+    height: 200vh;
+ } */
+ #section_three .section3_main_div{
+    display: flex;
+    justify-content: space-evenly;
+
+ }
+ #section_three .section3_main_div .section3_main_div1{
+border: 2px solid red;
+background-color: white;
+width: 21vw;
+border-radius: 10px;
+/* padding: 1vw; */
+margin-left: 2vw;
+
+}
+#section_three .section3_main_div .section3_main_div1 h5{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    color: red;
+}
+#section_three .section3_main_div .section3_main_div1 h1{
+    margin-left: 1vw;
+}#section_three .section3_main_div .section3_main_div1 p{
+    margin-left: 1vw;
+    
+}
+#section_three .section3_main_div .section3_main_div1 i{
+    margin-left: .9vw;
+    margin-bottom: 1vw;
+    margin-top: .5vw;
+    color: rgb(187, 8, 8);
+
+}
+ #section_three .section3_main_div .section3_main_div1 img{
+    border-radius: 10px;
+ }
+ #section_three  button{
+    background-color: red;
+    margin-left: 45vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: none;
+    border-radius: 20px;
+    color: white;
+ }
+ /* footer */
+ footer img{ 
+   align-items: center;
+   margin-left: 25vw;
+ }
+ footer h1{
+    text-align: center;
+    color: blue;
+    
+ }
